@@ -1,6 +1,15 @@
 # DOCKERFILE FOR PYTHON
 
 1. First understand the structure of the project
+
+python-app/
+  - app.py
+  -requirements.txt
+  - Dockerfile
+
+
+# SKELETON DOCKERFILE STUCTURE
+
      - FROM base-image
      - WORKDIR /app
      - COPY file ( requirements)
